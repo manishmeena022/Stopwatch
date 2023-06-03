@@ -38,7 +38,7 @@ body{
 .container{
     height: 600px;
     width: 1000px;
-    padding-left: 500px;
+    padding-left: 450px;
     text-align: center;
     justify-content: space-between;
 
@@ -67,15 +67,17 @@ body{
 .buttons {
     height: 50px;
     width: 300px;
-    display: inline-flex;   
+    font-size: 50px;
+    display: inline-flex;
+    padding-right: 130px;
 }
 
 .start-btn{
     background-color: green;
-    color: white;
+    color: black;
     padding: 15px 32px;
     font-size: 20px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .start-btn:hover{
@@ -84,10 +86,10 @@ body{
 
 .pause-btn{
     background-color: red;
-    color: white;
+    color: black;
     padding: 15px 32px;
     font-size: 20px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .pause-btn:hover {
@@ -95,12 +97,12 @@ body{
 }
 
 .reset-btn{
-    background-color: yellow ;
-    color: white;
+    background-color: lightgoldenrodyellow ;
+    color: black;
     padding: 15px 32px;
     display: inline-block;
     font-size: 20px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .reset-btn:hover{

@@ -19,6 +19,7 @@ resetBtn.addEventListener('click', resetStopwatch);
 function startStopwatch() {
     intervalId = setInterval(updateStopwatch, 10);
     startBtn.disabled = true; // Disable the start button when running
+    pauseBtn.disabled = false;
 }
 
 // To update the stopwatch after every millisecond
@@ -55,6 +56,7 @@ function padTime(time, padding = 2) {
 function pauseStopwatch() {
     clearInterval(intervalId);
     startBtn.disabled = false; // Re-enable the start button
+    pauseBtn.disabled = true;
 }
 
 // To reset the stopwatch
@@ -66,6 +68,7 @@ function resetStopwatch() {
     ms = 0;
     updateStopwatchDisplay();
     startBtn.disabled = false; // Re-enable the start button
+    pauseBtn.disabled = true;
 }
 
 // Initially, enable the start button and update display

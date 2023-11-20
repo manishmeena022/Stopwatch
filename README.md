@@ -29,4 +29,4 @@ These instructions will get you a copy of the project up and running on your loc
 -Check out the live demo of the application at https://manishmeena022.github.io/Stopwatch/
 
 ## Authors
-- [@manishmeena](https://github.com/manishmeena022)
+- [@manishmeena022](https://github.com/manishmeena022)
